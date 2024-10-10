@@ -18,11 +18,11 @@ import (
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	orc "github.com/metal-toolbox/conditionorc/pkg/api/v1/orchestrator/client"
-	orctypes "github.com/metal-toolbox/conditionorc/pkg/api/v1/orchestrator/types"
-	"github.com/metal-toolbox/rivets/condition"
-	"github.com/metal-toolbox/rivets/events"
-	"github.com/metal-toolbox/rivets/events/registry"
+	orc "github.com/metal-automata/conditionorc/pkg/api/v1/orchestrator/client"
+	orctypes "github.com/metal-automata/conditionorc/pkg/api/v1/orchestrator/types"
+	"github.com/metal-automata/rivets/condition"
+	"github.com/metal-automata/rivets/events"
+	"github.com/metal-automata/rivets/events/registry"
 )
 
 func startJetStreamServer(t *testing.T) *server.Server {

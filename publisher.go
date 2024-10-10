@@ -5,12 +5,12 @@ import (
 	"errors"
 
 	"github.com/google/uuid"
-	"github.com/metal-toolbox/rivets/condition"
-	"github.com/metal-toolbox/rivets/events"
-	"github.com/metal-toolbox/rivets/events/registry"
+	"github.com/metal-automata/rivets/condition"
+	"github.com/metal-automata/rivets/events"
+	"github.com/metal-automata/rivets/events/registry"
 	"github.com/sirupsen/logrus"
 
-	orc "github.com/metal-toolbox/conditionorc/pkg/api/v1/orchestrator/client"
+	orc "github.com/metal-automata/conditionorc/pkg/api/v1/orchestrator/client"
 )
 
 // The Publisher interface wraps the Task and StatusValue publishers into one,

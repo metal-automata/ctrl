@@ -5,9 +5,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/metal-toolbox/rivets/events"
-	"github.com/metal-toolbox/rivets/events/pkg/kv"
-	"github.com/metal-toolbox/rivets/events/registry"
+	"github.com/metal-automata/rivets/events"
+	"github.com/metal-automata/rivets/events/pkg/kv"
+	"github.com/metal-automata/rivets/events/registry"
 	"github.com/sirupsen/logrus"
 
 	"github.com/nats-io/nats.go"

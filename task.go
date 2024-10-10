@@ -7,10 +7,10 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/metal-toolbox/rivets/condition"
-	"github.com/metal-toolbox/rivets/events"
-	"github.com/metal-toolbox/rivets/events/pkg/kv"
-	"github.com/metal-toolbox/rivets/events/registry"
+	"github.com/metal-automata/rivets/condition"
+	"github.com/metal-automata/rivets/events"
+	"github.com/metal-automata/rivets/events/pkg/kv"
+	"github.com/metal-automata/rivets/events/registry"
 	"github.com/nats-io/nats.go"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
@@ -18,7 +18,7 @@ import (
 	"go.opentelemetry.io/otel/attribute"
 	"go.opentelemetry.io/otel/trace"
 
-	orc "github.com/metal-toolbox/conditionorc/pkg/api/v1/orchestrator/client"
+	orc "github.com/metal-automata/conditionorc/pkg/api/v1/orchestrator/client"
 )
 
 var (
